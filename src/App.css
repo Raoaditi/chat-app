@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Poppins&display=swap');
+
+
+
+body {
+  background: radial-gradient(at bottom left , rgb(223, 98, 98), rgb(231, 190, 190), rgb(28, 98, 185));
+  background-color: #f5f5f5;
+  background-size:cover;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.App {
+  margin: 40px auto;
+  font-family: sans-serif;
+  text-align: left;
+  max-width: 400px;
+}
+form {
+  display: flex;
+  width: 100%;
+}
+
+form > input {
+  padding: 18px;
+  flex: 1;
+  background-color: rgba(255,255,255,0.2);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+form > button {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(0 0 0 / 5%);
+  background-color: #2a5fd1;
+  padding: 2px 20px;
+  margin-left: 5px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.chatName{
+  font-family: 'Montserrat', sans-serif;
+  color: #1b262c;
+  font-weight: 600;
+  background-color: transparent;
+}
+.chatMessage {
+  color: #1a1a2e;
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0px 10px 10px 10px;
+  border-width: 0px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+  width: fit-content;
+}
+.header {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-radius: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  text-shadow: 2px 2px rgb(0 0 0 / 5%);
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.App > .header > p {
+  color: #2a5fd1;
+  background: transparent;
+  font-weight: 600;  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+.chat{
+  background-color: transparent;
+}
+.AppBody {
+  overflow-y: scroll;
+  height: 400px;
+  background-color: rgba(255,255,255,0.3);
+  padding: 8px 12px;
+}
+.AppFooter {
+  background: rgba(255,255,255,0.5);
+  border-radius: 12px;
+  padding: 8px 12px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
